@@ -1,0 +1,4 @@
+lida
+lida[transformers]
+streamlit
+torch
