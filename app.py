@@ -5,8 +5,6 @@ from PIL import Image
 from io import BytesIO
 import base64
 
-cohere.api_key = "jf8Qp6q5yLluoO7ZJfNHdaiTQQO2ixSIE8Us6bjl"
-
 def base64_to_image(base64_string):
     # Decode the base64 string
     byte_data = base64.b64decode(base64_string)
